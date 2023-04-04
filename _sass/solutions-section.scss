@@ -1,0 +1,48 @@
+/* ====================
+  Section solutions
+==================== */
+#solutions {
+  background-color: #EFF1F3;
+}
+
+.solutions-item {
+  height: 100%;
+  transition: 0.3s;
+  color: $textColor;
+
+  &:hover {
+    transform: translateY(-10px);
+    p {
+      color: $textColor;
+    }
+  }
+  .card-body {
+    padding-top: 50px;
+  }
+}
+
+.solutions-item img {
+  // max-height: 173px;
+  max-width: 345px;
+  max-width: 100%;
+}
+
+.solutions-img {
+  height: 173px;
+  line-height: 173px;
+  margin-bottom: 30px;
+}
+
+.solutions-wave-top-bg {
+  position: absolute;
+  top: -236px;
+  width: 100%;
+  z-index: -1;
+}
+.solutions-wave-bg {
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  transform: rotateY(180deg);
+}
+

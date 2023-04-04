@@ -1,16 +1,250 @@
-<!DOCTYPE html>
-<html>
+---
+title: Новая платформа
+layout: default
+---
 
-<head>
-  <script>
-    var url = document.location.href.toString().replace('://neoplatform.ru', '://flexberry.net');
-    window.location.replace(url);
-  </script>
-</head>
+<main role="main" data-aos="fade" data-aos-duration="1250">
+  <section id="main" class="">
+    {%include /backgrounds/main-wave-bg.svg%}
+    {%include /backgrounds/main-green-bg.svg%}
+    <div class="container position-relative">
+      {%include circles.html %}
+      <div class="row">
+        <div class="col-md-8">
+          <h1>Профессиональная <br> разработка IT-систем</h1>
+          <a href="#contacts" type="button" class="btn btn-primary mt-5 current-link">Связаться с нами</a>
+        </div>
+        <div class="col-md-4 d-none d-xl-block">
+          <img src="assets/img/main-bg-logo.png" alt="logo" class="main-bg-logo">
+        </div>
+      </div>
+      <div class="header-bg"></div>
+    </div>
+  </section>
 
-<body>
-  <p>The domain neoplatform.ru has moved to:
-    <a href="https://flexberry.net">flexberry.net</a></p>
-</body>
+  <section id="company">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 pe-lg-5">
+          <div class="row align-items-center text-center">
+            <div class="col-md-6">
+              <div class="card  company-card mb-4">
+                <div class="card-body">
+                  <div class="pb-2 mb-5">
+                    {%include /icons/idea.svg%}
+                  </div>
+                  <p>НИОКРы, успешные внедрения, актуализация инструментария под лучшие практики.</p>
+                </div>
+              </div>
+              <div class="card company-card mb-4">
+                <div class="card-body">
+                  <div class="pb-2 mb-5">
+                    {%include /icons/startup.svg%}
+                  </div>
+                  <p>Участие в стартап-сообществе с перспективными <a href="https://ai.flexberry.ru/" target="_blank" class="styled-link">проектами в области ИИ</a>.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card company-card mb-4">
+                <div class="card-body">
+                  <div class="pb-2 mb-5">
+                    {%include /icons/team.svg%}
+                  </div>
+                  <p><a href="#team" class="styled-link current-link">Опытная команда</a>, <a href="https://flexberry.net/ru/#education" target="_blank" class="styled-link">привлечение студентов</a> профильных вузов.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 pl-lg-5 company-about">
+          <p>Компания была основана в 2012 году. Специализируется на создании инструментов для ИТ-отделов и компаний-разработчиков ПО.</p>
+          <a href="https://flexberry.net/ru/" target="_blank" type="button" class="btn btn-primary mt-4">Наша платформа</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</html>
+  <!-- РЕШЕНИЯ -->
+  <section id="solutions" class="position-relative">
+    {%include /backgrounds/wave-top-bg.svg%}
+    {%include /backgrounds/wave-bg.svg%}
+    <div class="container solutions" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-center mb-5">Решения</h2>
+      <div class="row text-center">
+        <div class="col-xl-4 " data-aos="fade-up" data-aos-duration="1000">
+          <a class="card solutions-item" href="https://flexberry.net/ru/" target="_blank">
+            <div class="card-body">
+              <div class="solutions-img"><img src="assets/img/logo-flex.svg" class="img-fluid" alt="logo flexberry platform"></div>
+              <h3>Платформа Flexberry</h3>
+              <p>Flexberry – это технологическая программная платформа для профессиональной разработки программного
+                обеспечения. Позволяет ИТ-подразделениям предприятий и компаниям-разработчикам оптимизировать процесс
+                проектирования, создания и поддержки информационных систем.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-4 " data-aos="fade-up" data-aos-duration="1000">
+          <a class="card solutions-item" href="https://ai.flexberry.ru/" target="_blank">
+            <div class="card-body">
+              <div class="solutions-img"><img src="assets/img/logo-ai-assistant.svg" class="img-fluid" alt="logo ai assistant"></div>
+              <h3>ИИ Ассистент</h3>
+              <p>Помощник, который позволяет сократить временные затраты на рутинную обработку требований заказчика и
+                продемонстрировать макет приложения в процессе обсуждения в режиме реального времени.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xl-4 " data-aos="fade-up" data-aos-duration="1000">
+          <a class="card solutions-item" href="https://caseberry.net/" target="_blank" >
+            <div class="card-body">
+              <div class="solutions-img"><img src="assets/img/logo_berry.png" class="img-fluid" alt="logo CASEBERRY"></div>
+              <h3>CASEBERRY</h3>
+              <p>CASE-инструмент, реализующий стандартную нотацию UML. CASEBERRY может быть использован как для
+                бизнес-моделирования (анализ бизнес-процессов, реинжиниринг бизнес-процессов), так и для
+                объектно-ориентированного проектирования программного обеспечения и баз данных.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12"><a href="#contacts" type="button" class="btn btn-primary mt-5 current-link">Связаться с нами</a></div>
+        
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <!-- УСЛУГИ -->
+  <section id="services" class="position-relative">
+    <div class="green-bg-1 d-none d-md-block">{%include /backgrounds/green-bg.svg%}</div>
+    <div class="green-bg-2 d-none d-md-block">{%include /backgrounds/green-bg-right.svg%}</div>
+    <div class="green-bg-3 d-none d-md-block">{%include /backgrounds/green-bg.svg%}</div>
+    <div class="container services position-relative" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-center">Услуги</h2>
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xl-5 order-xl-2 services-item text-center" data-aos="fade-up" data-aos-duration="1000">
+          {%include /backgrounds/consulting.svg%}
+        </div>
+        <div class="col-xl-6 order-xl-1 services-item" data-aos="fade-up" data-aos-duration="1000">
+          <h3><a class="styled-link" data-toggle="modal" data-target="#consalting-modal">Консалтинг</a></h3>
+          <p>Новая платформа предоставляет консалтинговые услуги с участием экспертов в области разработки и внедрения информационных систем. Наши эксперты готовы провести экспертизу проекта, организовать обследование и подготовить рекомендации по развитию, написать техническое задание.</p>
+          <button class="btn btn-md btn-outline" type="button" data-toggle="modal" data-target="#consalting-modal">Узнать больше о консалтинге</button>
+        </div>
+        <div class="col-xl-5 order-xl-2 services-item text-center" data-aos="fade-up" data-aos-duration="1000">
+          {%include /backgrounds/dev.svg%}
+        </div>
+        <div class="col-xl-6 order-xl-2 services-item" data-aos="fade-up" data-aos-duration="1000">
+          <h3><a class="styled-link" data-toggle="modal" data-target="#development-modal">Заказная разработка ПО</a></h3>
+          <p>Новая платформа предоставляет услуги по реализации проектов по разработке и внедрению информационных систем. Глубокая проработка потребностей заказчиков и подробный анализ их деятельности позволяют создавать информационные системы, максимально соответствующие задачам наших клиентов.</p>
+          <button class="btn btn-md btn-outline" type="button" data-toggle="modal" data-target="#development-modal">Узнать больше о разработке ПО</button>
+        </div>
+        <div class="col-xl-5 order-xl-3 services-item text-center" data-aos="fade-up" data-aos-duration="1000">
+          {%include /backgrounds/fastdev.svg%}
+        </div>
+        <div class="col-xl-6 order-xl-2 services-item" data-aos="fade-up" data-aos-duration="1000">
+          <h3><a class="styled-link" data-toggle="modal" data-target="#mvp-modal">Быстрая разработка MVP</a></h3>
+          <p>Мы предлагаем услугу по созданию работающего прототипа приложения с базой данных по вашему описанию за фиксированную цену и срок.</p>
+          <p>Это идеальное решение для выполнения демонстрации идеи будущего приложения на этапе заключения договора на заказную разработку. Наличие работающего прототипа приложения - это огромный плюс. Ни одна презентация или даже “кликабельный” макет не заменит живую демонстрацию функций будущего приложения. Закажите разработку у нас, чтобы сэкономить время, деньги и нервы: не отвлекать своих программистов на создание прототипа или не связываться с фрилансерами.</p>
+          <button class="btn btn-md btn-outline" type="button" data-toggle="modal" data-target="#mvp-modal">Узнать больше о быстрой разработке MVP</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПАРТНЕРЫ -->
+  <section id="partners" class="text-center">
+    <h2 class="mb-5">Партнеры</h2>
+    <div class="partners-items pt-5 pb-5">
+      <div>
+        <a href="https://pstu.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/pnipu.png' | relative_url}}" alt="pnipu"></a>
+      </div>
+      <div>
+        <a href="https://www.fasie.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/bortnik.jpg' | relative_url}}" alt="bortnik"></a>
+      </div>
+      <div>
+        <a href="https://skyori.com/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/skyori.png' | relative_url}}" alt="skyori"></a>
+      </div>
+      <div>
+        <a href="https://proinfoservice.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/pis.png' | relative_url}}" alt="pis"></a>
+      </div>
+      <div>
+        <a href="https://pminst.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/iup.png' | relative_url}}" alt="iup"></a>
+      </div>
+      <div>
+        <a href="http://www.psu.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/pgniu.jpg' | relative_url}}" alt="pgniu"></a>
+      </div>
+      <div>
+        <img class="partners-img" src="{{'assets/img/partners/itsk.png' | relative_url}}" alt="itsk">
+      </div>
+      <div>
+        <a href="https://htmlacademy.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/htmlacademy.png' | relative_url}}" alt="htmlacademy"></a>
+      </div>
+      <div>
+        <a href="https://epos.permkrai.ru/perm-itnetwork/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/itu.png' | relative_url}}" alt="itu"></a>
+      </div>
+      <div>
+        <a href="https://timepath.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/timepath.png' | relative_url}}" alt="timepath"></a>
+      </div>
+      <div>
+        <a href="https://perm.hse.ru/" target="_blank"><img class="partners-img" src="{{'assets/img/partners/hse.png' | relative_url}}" alt="hse"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- КОМАНДА -->
+  <section id="team" class="bg-color-dark position-relative">
+    {%include /backgrounds/team-top-bg.svg%}
+    {%include /backgrounds/tem-list-right.svg%}
+    {%include /backgrounds/tem-list-left.svg%}
+    <div class="container text-center">
+      <h2>Команда<span class="team-list">{%include /icons/list.svg%}</span></h2>
+      <p class="team-description">В команде более 15-ти сотрудников</p>
+      <div class="row">
+        <div class="col-md-12 col-xl-2 team-item">
+          <img class="team-img" src="{{'assets/img/team/team-1.png' | relative_url}}" alt="photo">
+          <h4>Игорь</h4>
+          <span class="description">Руководитель, разработчик, 20+ лет в IT индустрии</span>
+        </div>
+        <div class="col-md-6 col-xl-2 d-none d-xl-block team-item"></div>
+
+        <div class="col-md-6 col-xl-2 team-item">
+          <img class="team-img" src="{{'assets/img/team/team-2.png' | relative_url}}" alt="photo">
+          <h4>Женя</h4>
+          <span class="description">Опыт разработки более 10 лет, зам. директора</span>
+        </div>
+        <div class="col-md-6 col-xl-2 team-item">
+          <img class="team-img" src="{{'assets/img/team/team-6.png' | relative_url}}" alt="photo">
+          <h4>Таня</h4>
+          <span class="description">Опыт разработки 7 лет, в компании с 2012 года</span>
+        </div>
+        <div class="col-md-6 col-xl-2 team-item">
+          <img class="team-img" src="{{'assets/img/team/team-7.png' | relative_url}}" alt="photo">
+          <h4>Ксюша</h4>
+          <span class="description">Любитель верстки и хороших интерфейсов</span>
+        </div>
+        <div class="col-md-6 col-xl-2 team-item">
+          <img class="team-img" src="{{'assets/img/team/team-8.png' | relative_url}}" alt="photo">
+          <h4>Антон</h4>
+          <span class="description">Опыт разработки 5 лет</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="inverce" data-aos="fade" data-aos-duration="1250">
+    <div class="container">
+      <h2>Контакты</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>Вы можете связаться с нашим менеджером, чтобы обсудить ваше проектное предложение, партнерство или вопросы по любому из наших контактов.</p>
+          <h3><a class="styled-link" href="mailto:info@neoplatform.ru">info@neoplatform.ru</a></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="btn btn-primary current-link" id="back-top" data-scroll="" href="#header">{%include /icons/arrow-up.svg%}</a>
+{%include /modals/consalting.html%}
+{%include /modals/development.html%}
+{%include /modals/mvp.html%}

@@ -1,0 +1,37 @@
+/* ====================
+    Section main
+==================== */
+#main {
+  padding-top: 200px;
+  background-color: #F7F7F7;
+  padding-bottom: 300px;
+}
+
+#main .circle_bg {
+  -webkit-animation: mymove 10s infinite;
+  animation: mymove 10s infinite;
+  position: absolute;
+  right: 50px;
+  top: -200px;
+}
+
+
+.main-green-bg {
+  position: absolute;
+  top: -200px;
+  right: 0;
+}
+
+.main-wave-bg {
+  position: absolute;
+  left: 0;
+  top: 400px;
+}
+
+.main-bg-logo {
+  position: relative;
+  left: -50%;
+  top: 10%;
+  width: 170%;
+}
+

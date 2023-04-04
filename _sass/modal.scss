@@ -1,0 +1,46 @@
+.modal-content {
+  // background-color: #EAEAF0;
+  border-radius: 0;
+  min-height: 100%;
+}
+
+.modal-dialog {
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  margin: 0;
+}
+
+.modal-body {
+  padding-top: 100px;
+  h1 {
+    font-weight: bold;
+  }
+  form > div{
+    max-width: 572px;
+  }
+}
+
+.close {
+  margin: -20px 64px 0;
+  width: 64px;
+  height: 24px;
+  svg {
+    fill: $textColor;
+  }
+}
+
+.fade {
+  transition: opacity 0.5s linear;
+}
+
+@media (min-width: 1199px) {
+  .modal-body {
+    .container {
+      margin: 0;
+      padding-left: 270px;
+      // padding-top: 230px;
+      max-width: 1400px;
+    }
+  }
+}

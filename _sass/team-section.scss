@@ -1,0 +1,91 @@
+.bg-color-dark {
+  background-color: $textColor;
+  color: #fff;
+}
+
+#team {
+  padding-top: 120px;
+}
+
+.team-item {
+  margin-bottom: 4em;
+}
+
+.team-item h4 {
+  font-weight: normal;
+}
+
+.team-img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+  max-width: 250px;
+}
+
+.team-description {
+  font-size: 1.125rem;
+  margin-bottom: 5em;
+}
+.team-description,
+.team-item .description {
+  color: #979797;
+}
+
+.team-list {
+  position: relative;
+  top: -40px;
+  left: 45px;
+  margin-left: -30px;
+}
+
+.team-top-bg {
+  position: absolute;
+  top: -10%;
+  right: 0;
+  z-index: -1;
+}
+
+.tem-list-right {
+  position: absolute;
+  right: 0;
+  top: -25%;
+}
+
+.team-bottom-bg {
+  transform: rotate(180deg);
+  bottom: -10%;
+  position: absolute;
+}
+
+.tem-list-left {
+  bottom: -30%;
+  position: absolute;
+}
+
+@media (max-width: 1200px) {
+  .tem-list-right{
+    top: -10%;
+  }
+  .tem-list-left {
+    bottom: -10%;
+  }
+  .team-top-bg {
+    top: 5%;
+  }
+  .green-bg-1,
+  .green-bg-2,
+  .green-bg-3 {
+    width: 50%;
+  }
+  .services-item svg {
+    max-width: 450px;
+  }
+  .services-item {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .solutions > .row > div {
+    margin-bottom: 1em;
+  }
+}
