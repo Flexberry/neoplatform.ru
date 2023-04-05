@@ -297,6 +297,9 @@ a.styled-link {
       display: none; }
     .nav-link.active {
       font-weight: bold; } }
+@media (max-width: 344px) {
+  .navbar-brand img {
+    height: 30px; } }
 .circle-1 {
   position: absolute;
   border-radius: 100%;
@@ -478,7 +481,8 @@ a.styled-link {
 #main {
   padding-top: 200px;
   background-color: #F7F7F7;
-  padding-bottom: 300px; }
+  padding-bottom: 300px;
+  overflow: hidden; }
 
 #main .circle_bg {
   -webkit-animation: mymove 10s infinite;
@@ -503,6 +507,9 @@ a.styled-link {
   top: 10%;
   width: 170%; }
 
+@media (max-width: 390px) {
+  h1 {
+    font-size: 28px; } }
 #company .container {
   margin-top: -320px; }
 
@@ -518,6 +525,9 @@ a.styled-link {
 ==================== */
 #solutions {
   background-color: #EFF1F3; }
+
+.solutions > .row {
+  z-index: 1; }
 
 .solutions-item {
   height: 100%;
@@ -551,6 +561,9 @@ a.styled-link {
   bottom: -100px;
   transform: rotateY(180deg); }
 
+#services {
+  overflow: hidden; }
+
 .services-item {
   margin-top: 75px;
   margin-bottom: 75px; }
@@ -563,7 +576,7 @@ a.styled-link {
   position: absolute; }
 
 .green-bg-1 {
-  top: -15%;
+  top: -5%;
   right: 0; }
 
 .green-bg-2 {
@@ -652,6 +665,10 @@ a.styled-link {
 
   .solutions > .row > div {
     margin-bottom: 1em; } }
+@media (max-width: 645px) {
+  .tem-list-right,
+  .tem-list-left {
+    max-width: 80%; } }
 .slick-track {
   display: flex; }
 
